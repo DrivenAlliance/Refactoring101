@@ -10,17 +10,5 @@ namespace Refactoring_101.points
             X = x;
             Y = y;
         }
-
-        public void Move(int moveBy)
-        {
-            X += moveBy;
-            Y += moveBy;
-        }
-
-        public void Scale(int scaleBy)
-        {
-            X *= scaleBy;
-            Y *= scaleBy;
-        }
     }
 }

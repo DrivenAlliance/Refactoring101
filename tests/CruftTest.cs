@@ -16,7 +16,7 @@ namespace tests
             var point3 = new Point(2, 2);
             var point4 = new Point(0, 2);
 
-            cruft.MoveAndScale(10, 2, point1, point2, point3, point4);
+            cruft.DoStuff(point1, point2, point3, point4);
 
             Assert.AreEqual(20, point1.X);
             Assert.AreEqual(20, point1.Y);
