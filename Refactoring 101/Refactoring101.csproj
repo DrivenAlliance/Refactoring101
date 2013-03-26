@@ -39,7 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="party\Person.cs" />
+    <Compile Include="party\User.cs" />
     <Compile Include="points\Cruft.cs" />
     <Compile Include="points\Point.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
